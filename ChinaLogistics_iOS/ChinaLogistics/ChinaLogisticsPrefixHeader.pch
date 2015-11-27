@@ -1,0 +1,14 @@
+//
+//  ChinaLogisticsPrefixHeader.pch
+//  ChinaLogistics
+//
+//  Created by chenguandong on 15/11/27.
+//  Copyright © 2015年 冠东陈. All rights reserved.
+//
+
+#ifndef ChinaLogisticsPrefixHeader_pch
+#define ChinaLogisticsPrefixHeader_pch
+
+#import "Constant.h"
+
+#endif /* ChinaLogisticsPrefixHeader_pch */

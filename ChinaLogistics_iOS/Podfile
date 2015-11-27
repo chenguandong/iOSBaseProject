@@ -1,0 +1,9 @@
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0"
+pod 'SSKeychain'
+pod 'SDWebImage', '~>3.7'
+pod 'IQKeyboardManager'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'RMUniversalAlert-BlocksKit', '~> 0.8'
+pod 'Masonry'
+pod 'Mantle', '~> 2.0.4'

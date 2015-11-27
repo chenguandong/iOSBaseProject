@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1891308E1C084C21009192EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891305C1C084C21009192EE /* AppDelegate.m */; };
+		1891308F1C084C21009192EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1891305D1C084C21009192EE /* Assets.xcassets */; };
+		189130901C084C21009192EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1891305F1C084C21009192EE /* LaunchScreen.storyboard */; };
+		189130911C084C21009192EE /* BaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189130631C084C21009192EE /* BaseCollectionViewController.m */; };
+		189130921C084C21009192EE /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189130651C084C21009192EE /* BaseTabBarController.m */; };
+		189130931C084C21009192EE /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189130671C084C21009192EE /* BaseTableViewController.m */; };
+		189130941C084C21009192EE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189130691C084C21009192EE /* BaseViewController.m */; };
+		189130951C084C21009192EE /* MBProgressHUD+LXProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891306C1C084C21009192EE /* MBProgressHUD+LXProgressHUD.m */; };
+		189130961C084C21009192EE /* NSUserDefaults+LXUserTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891306E1C084C21009192EE /* NSUserDefaults+LXUserTools.m */; };
+		189130971C084C21009192EE /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 189130721C084C21009192EE /* Constant.m */; };
+		189130981C084C21009192EE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 189130751C084C21009192EE /* Info.plist */; };
+		189130991C084C21009192EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189130761C084C21009192EE /* main.m */; };
+		1891309A1C084C21009192EE /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891307A1C084C21009192EE /* UserModel.m */; };
+		1891309B1C084C21009192EE /* AppGlobalSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891307E1C084C21009192EE /* AppGlobalSetting.m */; };
+		1891309C1C084C21009192EE /* Base64Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 189130801C084C21009192EE /* Base64Util.m */; };
+		1891309D1C084C21009192EE /* JsonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 189130821C084C21009192EE /* JsonTools.m */; };
+		1891309E1C084C21009192EE /* NetWorkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 189130841C084C21009192EE /* NetWorkTools.m */; };
+		1891309F1C084C21009192EE /* ValidateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 189130861C084C21009192EE /* ValidateTools.m */; };
+		189130A01C084C21009192EE /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891308B1C084C21009192EE /* WelcomeViewController.m */; };
+		189130A11C084C21009192EE /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1891308C1C084C21009192EE /* WelcomeViewController.xib */; };
+		189130A61C08537B009192EE /* BaseJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 189130A51C08537B009192EE /* BaseJsonModel.m */; };
+		189130A91C085580009192EE /* NSString+LXEmptyString.m in Sources */ = {isa = PBXBuildFile; fileRef = 189130A81C085580009192EE /* NSString+LXEmptyString.m */; };
+		189130AD1C08597D009192EE /* AdScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189130AC1C08597D009192EE /* AdScrollView.m */; };
+		5603D748716B1DF5D0AA9C61 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C91F0AD95855320D63F12D83 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1891305B1C084C21009192EE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ChinaLogistics/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		1891305C1C084C21009192EE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ChinaLogistics/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		1891305D1C084C21009192EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ChinaLogistics/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		189130601C084C21009192EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189130621C084C21009192EE /* BaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewController.h; sourceTree = "<group>"; };
+		189130631C084C21009192EE /* BaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewController.m; sourceTree = "<group>"; };
+		189130641C084C21009192EE /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		189130651C084C21009192EE /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		189130661C084C21009192EE /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		189130671C084C21009192EE /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		189130681C084C21009192EE /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		189130691C084C21009192EE /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1891306B1C084C21009192EE /* MBProgressHUD+LXProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LXProgressHUD.h"; sourceTree = "<group>"; };
+		1891306C1C084C21009192EE /* MBProgressHUD+LXProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LXProgressHUD.m"; sourceTree = "<group>"; };
+		1891306D1C084C21009192EE /* NSUserDefaults+LXUserTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+LXUserTools.h"; sourceTree = "<group>"; };
+		1891306E1C084C21009192EE /* NSUserDefaults+LXUserTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+LXUserTools.m"; sourceTree = "<group>"; };
+		189130711C084C21009192EE /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		189130721C084C21009192EE /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		189130751C084C21009192EE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ChinaLogistics/Info.plist; sourceTree = SOURCE_ROOT; };
+		189130761C084C21009192EE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ChinaLogistics/main.m; sourceTree = SOURCE_ROOT; };
+		189130791C084C21009192EE /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		1891307A1C084C21009192EE /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		1891307D1C084C21009192EE /* AppGlobalSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppGlobalSetting.h; sourceTree = "<group>"; };
+		1891307E1C084C21009192EE /* AppGlobalSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppGlobalSetting.m; sourceTree = "<group>"; };
+		1891307F1C084C21009192EE /* Base64Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Util.h; sourceTree = "<group>"; };
+		189130801C084C21009192EE /* Base64Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Util.m; sourceTree = "<group>"; };
+		189130811C084C21009192EE /* JsonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonTools.h; sourceTree = "<group>"; };
+		189130821C084C21009192EE /* JsonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonTools.m; sourceTree = "<group>"; };
+		189130831C084C21009192EE /* NetWorkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkTools.h; sourceTree = "<group>"; };
+		189130841C084C21009192EE /* NetWorkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkTools.m; sourceTree = "<group>"; };
+		189130851C084C21009192EE /* ValidateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidateTools.h; sourceTree = "<group>"; };
+		189130861C084C21009192EE /* ValidateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidateTools.m; sourceTree = "<group>"; };
+		1891308A1C084C21009192EE /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		1891308B1C084C21009192EE /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		1891308C1C084C21009192EE /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		189130A21C084EEB009192EE /* ChinaLogisticsPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChinaLogisticsPrefixHeader.pch; path = ChinaLogistics/ChinaLogisticsPrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		189130A41C08537B009192EE /* BaseJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseJsonModel.h; sourceTree = "<group>"; };
+		189130A51C08537B009192EE /* BaseJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseJsonModel.m; sourceTree = "<group>"; };
+		189130A71C085580009192EE /* NSString+LXEmptyString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LXEmptyString.h"; sourceTree = "<group>"; };
+		189130A81C085580009192EE /* NSString+LXEmptyString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LXEmptyString.m"; sourceTree = "<group>"; };
+		189130AB1C08597D009192EE /* AdScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdScrollView.h; sourceTree = "<group>"; };
+		189130AC1C08597D009192EE /* AdScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdScrollView.m; sourceTree = "<group>"; };
+		29A09A4A1BDDFD9C0048D823 /* ChinaLogistics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinaLogistics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D19CB6F9F60B6842A901351 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C91F0AD95855320D63F12D83 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF105BD0FAE2A98D589AF8F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29A09A471BDDFD9C0048D823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5603D748716B1DF5D0AA9C61 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1891305E1C084C21009192EE /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				1891305F1C084C21009192EE /* LaunchScreen.storyboard */,
+			);
+			name = Base.lproj;
+			path = ChinaLogistics/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		189130611C084C21009192EE /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				189130621C084C21009192EE /* BaseCollectionViewController.h */,
+				189130631C084C21009192EE /* BaseCollectionViewController.m */,
+				189130641C084C21009192EE /* BaseTabBarController.h */,
+				189130651C084C21009192EE /* BaseTabBarController.m */,
+				189130661C084C21009192EE /* BaseTableViewController.h */,
+				189130671C084C21009192EE /* BaseTableViewController.m */,
+				189130681C084C21009192EE /* BaseViewController.h */,
+				189130691C084C21009192EE /* BaseViewController.m */,
+			);
+			name = BaseClass;
+			path = ChinaLogistics/BaseClass;
+			sourceTree = SOURCE_ROOT;
+		};
+		1891306A1C084C21009192EE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				189130A71C085580009192EE /* NSString+LXEmptyString.h */,
+				189130A81C085580009192EE /* NSString+LXEmptyString.m */,
+				1891306B1C084C21009192EE /* MBProgressHUD+LXProgressHUD.h */,
+				1891306C1C084C21009192EE /* MBProgressHUD+LXProgressHUD.m */,
+				1891306D1C084C21009192EE /* NSUserDefaults+LXUserTools.h */,
+				1891306E1C084C21009192EE /* NSUserDefaults+LXUserTools.m */,
+			);
+			name = Category;
+			path = ChinaLogistics/Category;
+			sourceTree = SOURCE_ROOT;
+		};
+		1891306F1C084C21009192EE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cell;
+			path = ChinaLogistics/Cell;
+			sourceTree = SOURCE_ROOT;
+		};
+		189130701C084C21009192EE /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				189130711C084C21009192EE /* Constant.h */,
+				189130721C084C21009192EE /* Constant.m */,
+			);
+			name = Constant;
+			path = ChinaLogistics/Constant;
+			sourceTree = SOURCE_ROOT;
+		};
+		189130731C084C21009192EE /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				189130AA1C08597D009192EE /* AdView */,
+			);
+			name = CustomView;
+			path = ChinaLogistics/CustomView;
+			sourceTree = SOURCE_ROOT;
+		};
+		189130741C084C21009192EE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			path = ChinaLogistics/Images;
+			sourceTree = SOURCE_ROOT;
+		};
+		189130771C084C21009192EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				189130A31C08537B009192EE /* BaseJsonModel */,
+				189130781C084C21009192EE /* UserModel */,
+			);
+			name = Model;
+			path = ChinaLogistics/Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		189130781C084C21009192EE /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				189130791C084C21009192EE /* UserModel.h */,
+				1891307A1C084C21009192EE /* UserModel.m */,
+			);
+			path = UserModel;
+			sourceTree = "<group>";
+		};
+		1891307C1C084C21009192EE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1891307D1C084C21009192EE /* AppGlobalSetting.h */,
+				1891307E1C084C21009192EE /* AppGlobalSetting.m */,
+				1891307F1C084C21009192EE /* Base64Util.h */,
+				189130801C084C21009192EE /* Base64Util.m */,
+				189130811C084C21009192EE /* JsonTools.h */,
+				189130821C084C21009192EE /* JsonTools.m */,
+				189130831C084C21009192EE /* NetWorkTools.h */,
+				189130841C084C21009192EE /* NetWorkTools.m */,
+				189130851C084C21009192EE /* ValidateTools.h */,
+				189130861C084C21009192EE /* ValidateTools.m */,
+			);
+			name = Tools;
+			path = ChinaLogistics/Tools;
+			sourceTree = SOURCE_ROOT;
+		};
+		189130871C084C21009192EE /* Vector */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vector;
+			path = ChinaLogistics/Vector;
+			sourceTree = SOURCE_ROOT;
+		};
+		189130881C084C21009192EE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				189130891C084C21009192EE /* WelcomeViewController */,
+			);
+			name = ViewController;
+			path = ChinaLogistics/ViewController;
+			sourceTree = SOURCE_ROOT;
+		};
+		189130891C084C21009192EE /* WelcomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1891308A1C084C21009192EE /* WelcomeViewController.h */,
+				1891308B1C084C21009192EE /* WelcomeViewController.m */,
+				1891308C1C084C21009192EE /* WelcomeViewController.xib */,
+			);
+			path = WelcomeViewController;
+			sourceTree = "<group>";
+		};
+		1891308D1C084C21009192EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			path = ChinaLogistics/ViewModel;
+			sourceTree = SOURCE_ROOT;
+		};
+		189130A31C08537B009192EE /* BaseJsonModel */ = {
+			isa = PBXGroup;
+			children = (
+				189130A41C08537B009192EE /* BaseJsonModel.h */,
+				189130A51C08537B009192EE /* BaseJsonModel.m */,
+			);
+			path = BaseJsonModel;
+			sourceTree = "<group>";
+		};
+		189130AA1C08597D009192EE /* AdView */ = {
+			isa = PBXGroup;
+			children = (
+				189130AB1C08597D009192EE /* AdScrollView.h */,
+				189130AC1C08597D009192EE /* AdScrollView.m */,
+			);
+			path = AdView;
+			sourceTree = "<group>";
+		};
+		29A09A411BDDFD9C0048D823 = {
+			isa = PBXGroup;
+			children = (
+				29A09A4C1BDDFD9C0048D823 /* ChinaLogistics */,
+				29A09A4B1BDDFD9C0048D823 /* Products */,
+				BA97925F8F433767DBD1A0E7 /* Pods */,
+				D407A6BAFE70F3D929D8F551 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29A09A4B1BDDFD9C0048D823 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29A09A4A1BDDFD9C0048D823 /* ChinaLogistics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29A09A4C1BDDFD9C0048D823 /* ChinaLogistics */ = {
+			isa = PBXGroup;
+			children = (
+				1891305B1C084C21009192EE /* AppDelegate.h */,
+				1891305C1C084C21009192EE /* AppDelegate.m */,
+				1891305D1C084C21009192EE /* Assets.xcassets */,
+				1891305E1C084C21009192EE /* Base.lproj */,
+				189130611C084C21009192EE /* BaseClass */,
+				1891306A1C084C21009192EE /* Category */,
+				1891306F1C084C21009192EE /* Cell */,
+				189130701C084C21009192EE /* Constant */,
+				189130731C084C21009192EE /* CustomView */,
+				189130741C084C21009192EE /* Images */,
+				189130751C084C21009192EE /* Info.plist */,
+				189130761C084C21009192EE /* main.m */,
+				189130771C084C21009192EE /* Model */,
+				1891307C1C084C21009192EE /* Tools */,
+				189130871C084C21009192EE /* Vector */,
+				189130881C084C21009192EE /* ViewController */,
+				1891308D1C084C21009192EE /* ViewModel */,
+				189130A21C084EEB009192EE /* ChinaLogisticsPrefixHeader.pch */,
+			);
+			name = ChinaLogistics;
+			path = RedLiving;
+			sourceTree = "<group>";
+		};
+		BA97925F8F433767DBD1A0E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDF105BD0FAE2A98D589AF8F /* Pods.debug.xcconfig */,
+				5D19CB6F9F60B6842A901351 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D407A6BAFE70F3D929D8F551 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C91F0AD95855320D63F12D83 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29A09A491BDDFD9C0048D823 /* ChinaLogistics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A09A611BDDFD9C0048D823 /* Build configuration list for PBXNativeTarget "ChinaLogistics" */;
+			buildPhases = (
+				D28C69F97AD3056D49C5B989 /* Check Pods Manifest.lock */,
+				29A09A461BDDFD9C0048D823 /* Sources */,
+				29A09A471BDDFD9C0048D823 /* Frameworks */,
+				29A09A481BDDFD9C0048D823 /* Resources */,
+				EBAD9E4652094156F2C81869 /* Copy Pods Resources */,
+				6A02BE0E52B6B52F9223C87E /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChinaLogistics;
+			productName = RedLiving;
+			productReference = 29A09A4A1BDDFD9C0048D823 /* ChinaLogistics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29A09A421BDDFD9C0048D823 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "冠东陈";
+				TargetAttributes = {
+					29A09A491BDDFD9C0048D823 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 29A09A451BDDFD9C0048D823 /* Build configuration list for PBXProject "ChinaLogistics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29A09A411BDDFD9C0048D823;
+			productRefGroup = 29A09A4B1BDDFD9C0048D823 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29A09A491BDDFD9C0048D823 /* ChinaLogistics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29A09A481BDDFD9C0048D823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1891308F1C084C21009192EE /* Assets.xcassets in Resources */,
+				189130A11C084C21009192EE /* WelcomeViewController.xib in Resources */,
+				189130901C084C21009192EE /* LaunchScreen.storyboard in Resources */,
+				189130981C084C21009192EE /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A02BE0E52B6B52F9223C87E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D28C69F97AD3056D49C5B989 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBAD9E4652094156F2C81869 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29A09A461BDDFD9C0048D823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1891309D1C084C21009192EE /* JsonTools.m in Sources */,
+				189130951C084C21009192EE /* MBProgressHUD+LXProgressHUD.m in Sources */,
+				189130A61C08537B009192EE /* BaseJsonModel.m in Sources */,
+				1891308E1C084C21009192EE /* AppDelegate.m in Sources */,
+				1891309B1C084C21009192EE /* AppGlobalSetting.m in Sources */,
+				189130AD1C08597D009192EE /* AdScrollView.m in Sources */,
+				1891309F1C084C21009192EE /* ValidateTools.m in Sources */,
+				189130941C084C21009192EE /* BaseViewController.m in Sources */,
+				189130961C084C21009192EE /* NSUserDefaults+LXUserTools.m in Sources */,
+				189130921C084C21009192EE /* BaseTabBarController.m in Sources */,
+				189130931C084C21009192EE /* BaseTableViewController.m in Sources */,
+				1891309A1C084C21009192EE /* UserModel.m in Sources */,
+				189130911C084C21009192EE /* BaseCollectionViewController.m in Sources */,
+				1891309E1C084C21009192EE /* NetWorkTools.m in Sources */,
+				189130991C084C21009192EE /* main.m in Sources */,
+				189130A91C085580009192EE /* NSString+LXEmptyString.m in Sources */,
+				189130A01C084C21009192EE /* WelcomeViewController.m in Sources */,
+				1891309C1C084C21009192EE /* Base64Util.m in Sources */,
+				189130971C084C21009192EE /* Constant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1891305F1C084C21009192EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189130601C084C21009192EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29A09A5F1BDDFD9C0048D823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29A09A601BDDFD9C0048D823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29A09A621BDDFD9C0048D823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF105BD0FAE2A98D589AF8F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChinaLogistics/ChinaLogisticsPrefixHeader.pch";
+				INFOPLIST_FILE = ChinaLogistics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxkj.ChinaLogistics;
+				PRODUCT_NAME = ChinaLogistics;
+			};
+			name = Debug;
+		};
+		29A09A631BDDFD9C0048D823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D19CB6F9F60B6842A901351 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChinaLogistics/ChinaLogisticsPrefixHeader.pch";
+				INFOPLIST_FILE = ChinaLogistics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxkj.ChinaLogistics;
+				PRODUCT_NAME = ChinaLogistics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29A09A451BDDFD9C0048D823 /* Build configuration list for PBXProject "ChinaLogistics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A09A5F1BDDFD9C0048D823 /* Debug */,
+				29A09A601BDDFD9C0048D823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29A09A611BDDFD9C0048D823 /* Build configuration list for PBXNativeTarget "ChinaLogistics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A09A621BDDFD9C0048D823 /* Debug */,
+				29A09A631BDDFD9C0048D823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29A09A421BDDFD9C0048D823 /* Project object */;
+}
